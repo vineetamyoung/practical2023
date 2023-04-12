@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    text-align: center;
+}
+nav .logo{
+    /* margin: 20px 0; */
+    padding-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    color:black;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+align-items: center;
+    
+}
+nav .nav-links{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
+nav .nav-links a{
+    text-decoration: none;
+    margin: 15px 30px;
+    color: white;
+    letter-spacing: 2px;
+    /* word-spacing: 4px; */
+    text-align: center;
+
+}
+nav .nav-links a:hover{
+  color: #3da9fc;
+  text-decoration:none;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+ 
+  body{
+     background-color: #f3f5f9;
+  }
+  
+  
+  .content{
+    padding: 5%;
+
+  }
+  .content h2{
+    text-align: left;
+  }
+  .content .syntax p{
+    background-color:rgb(152, 240, 240) ;
+    padding: 3%;
+    
+    margin: 3%;
+    border-radius: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    
+    
+  }
+  
+  img{
+    align-items: center;
+    width: 80%;
+    margin: 6%;
+  }
+  .content ul li {
+    list-style: disc;
+    
+  }
+  

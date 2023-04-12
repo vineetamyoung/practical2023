@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family:'Tiro Tamil', serif;
+}    
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/img1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 85%;
+}
+
+.firstHalf{
+    width: 90%
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 10%;
+    size: 40px 40px;
+}
+
+.btn{
+    padding: 7px 14px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 6px;
+    background: none;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Tiro Tamil', serif;
+    font-size: 20px;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.btn-dark{
+    color: rgb(7, 5, 5);
+    border: 2px solid grey;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding: 10px;
+
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+
+.paras{
+    padding: 0 65px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 11px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{
+    background-color: rgb(234, 232, 229);
+    height: 833px;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Tiro Tamil', serif;
+    font-size: 35px;
+}
+
+.text-footer{
+    text-align: center;
+    font-family: 'Tiro Tamil', serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    color: white;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 33px;
+    background-color: azure;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width: 1150px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 447px;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+
+    }
+    .h-nav-resp{
+        height: 69px;
+
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: centre;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+}
